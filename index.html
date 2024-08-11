@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>World Clock</h1>
+        <div class="controls">
+            <select id="country-selector">
+                <option value="" disabled selected>Select a country</option>
+                <!-- Timezones will be dynamically populated here -->
+            </select>
+            <button id="add-country-button">Add Country</button>
+        </div>
+    </header>
+    <main class="clock-container">
+        <div id="world-clock" class="world-clock"></div>
+    </main>
+    <footer>
+        <p>&copy; 2024 World Clock. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
